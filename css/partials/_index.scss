@@ -1,0 +1,72 @@
+.side-bar {
+  display: block;
+  width: 33%;
+  height: auto;
+  overflow: visible;
+  background: $white;
+
+  @include breakpoint(large){
+    width: 33%;
+    position: absolute;
+    top: 0;
+  }
+  @include breakpoint(desktop){
+    width: 33%;
+    position: absolute;
+    top: 0;
+  }
+  @include breakpoint(tablet){
+    width: 33%;
+    position: absolute;
+    top: 0;
+
+  }
+  @include breakpoint(mobile){
+    width: 100%;
+  }
+  @include breakpoint(iphone){
+    width: 100%;
+  }
+
+}
+
+
+.body-content {
+  display: block;
+  width: 66%;
+  height: auto;
+  overflow: visible;
+  background: $lt-gray;
+  @include breakpoint(large){
+    width: 66%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  @include breakpoint(desktop){
+    width: 66%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  @include breakpoint(tablet){
+    width: 66%;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  @include breakpoint(mobile){
+    width: 100%;
+  }
+  @include breakpoint(iphone){
+    width: 100%;
+  }
+}
+
+.line-break{
+  width: 90%;
+  height: 1px;
+  background: $black;
+  display: block;
+  margin: 1% auto;
+}

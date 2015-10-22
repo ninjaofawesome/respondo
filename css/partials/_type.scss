@@ -1,0 +1,42 @@
+body {
+  font-family: $sans-serif;
+  font-size: 16px;
+  color: $black;
+  font-weight: 400;
+}
+
+p {
+  display: inline-block;
+  padding: 0 5%;
+}
+
+a {
+  @include link-transition(500ms);
+  color: $dk-gray;
+  text-decoration: none;
+  &:hover, &:visited, &:focus {
+    color: $md-gray;
+  }
+  &:visited {
+    color: $dk-gray;
+  }
+}
+
+.title,
+.subtitle{
+  color: $dk-gray;
+}
+
+.subtitle {
+  text-align: center;
+}
+
+.sidebar-links {
+  list-style-type: none;
+  font-size: 1.5em;
+  .side-link{
+    margin-left: 5%;
+  }
+}
+
+
